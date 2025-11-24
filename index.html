@@ -4,134 +4,242 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nehal Balakumar Portfolio</title>
-</head>
 
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            font-size: 18px;
+            line-height: 1.6;
+            padding: 20px;
+        }
+
+        .about-section {
+            display: flex;
+            align-items: flex-start;
+            gap: 40px;
+            margin-top: 20px;
+        }
+
+        .profile-pic {
+            width: 230px;
+            height: 230px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid #ddd;
+        }
+
+        .about-text {
+            max-width: 70%;
+            line-height: 1.6;
+        }
+
+        table {
+            width: 95%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            font-size: 18px;
+        }
+
+        table td, table th {
+            border: 1px solid #ccc;
+            padding: 10px;
+        }
+
+        table th {
+            background: #f3f3f3;
+            text-align: left;
+        }
+    </style>
+</head>
 <body>
 
-    <!-- Profile Section -->
-    <h1><u><b>About Me</b></u></h1>
+    <!-- ABOUT SECTION -->
+    <div class="about-section">
+        <img src="Profile picture.jpg" class="profile-pic" alt="Nehal Balakumar">
 
-    <!-- Profile Image -->
-    <h2>Profile Image</h2>
-    <img src="Nehal profile.jpeg" alt="Nehal Balakumar" height="150px">
-    <hr>
+        <div class="about-text">
+            <h1>About</h1>
 
-    <!-- About Text -->
+            <p>
+                My name is <b>Nehal Balakumar</b>, and I graduated in <b>2025</b> with a 
+                B.Tech in <b>Electronics and Communication Engineering</b> from 
+                <b>SRM INSTITUTE OF SCIENCE AND TECHNOLOGY, CHENNAI</b>.
+                I enjoy working on Web Development, Digital Electronics, and creating meaningful projects by combining creativity with logic.
+            </p>
+
+            <p>
+                I am proficient in Data Structures and Algorithms and have a strong interest in CS core areas like Computer Networks and Object-Oriented Programming. 
+                I also enjoy solving problems, building projects, and strengthening my technical thinking.
+            </p>
+
+            <p>
+                I love teamwork, interacting with new people, sharing ideas, and learning from diverse perspectives—this helps me grow both personally and professionally.
+            </p>
+
+            <p>
+                I am also exploring developments in Artificial Intelligence and look forward to integrating AI-driven ideas into my future work.
+            </p>
+        </div>
+    </div>
+
+
+    <!-- EDUCATION SECTION -->
+    <h2>Education</h2>
+
+    <h3>School – Atomic Energy Central School, Kaiga, Karnataka</h3>
+    <p><b>Class 10</b> (2018–2019) – CBSE<br>
+    <b>Percentage:</b> 76%</p>
+
+    <p><b>Class 12</b> (2020–2021) – CBSE<br>
+    <b>Percentage:</b> 77.4%</p>
+
+    <h3>College – SRM Institute of Science and Technology (SRMIST), Chennai</h3>
     <p>
-        My name is <b>Nehal Balakumar</b>, and I graduated in <b>2025</b> with a 
-        <b>B.Tech in Electronics and Communication Engineering</b> from 
-        <b>SRM Institute of Science and Technology</b>.
-        I have a strong interest in <b>Web Development</b> and <b>Digital Electronics</b>, 
-        and I enjoy combining creativity with logic to build meaningful solutions.
+        <b>B.Tech in Electronics and Communication Engineering</b> (2021–2025)<br>
+        <b>CGPA:</b> 6.2/10
     </p>
 
-    <p>
-        I am also proficient in <b>Data Structures and Algorithms (DSA)</b>, and I have a deep passion 
-        for <b>Computer Science fundamentals</b>, especially <i>Computer Networks</i> and 
-        <i>Object-Oriented Programming</i>. I constantly challenge myself with problem-solving 
-        and improving my technical mindset.
-    </p>
+
+    <!-- ACHIEVEMENTS SECTION -->
+    <h2>Achievements</h2>
+
+    <ul>
+        <li>
+            Represented SRMIST in the <b>National Entrepreneurship Challenge</b> Final Round at 
+            <b>E-Summit 2024, IIT Bombay</b>.
+        </li>
+
+        <li>
+            Won <b>Best Paper Award</b> for “Parametric Variation Analysis of FD-SOI MOSFET for High-Speed IC Design”
+            at RAEEUCCI-2025 (Co-Sponsored by IEEE).
+        </li>
+
+        <li><b>Sponsorship Associate</b> – Coding Ninjas (2021–2023)</li>
+        <li><b>Editorial Lead</b> – E-Cell SRM (2022–2024)</li>
+        <li><b>Mentor</b> – E-Cell SRM (2024–2025)</li>
+    </ul>
+
+
+
+    <!-- TECHNOLOGY SECTION -->
+    <h2>Technologies & Skills</h2>
 
     <p>
-        Apart from technology, I am highly motivated by <b>teamwork</b>. Working with new people inspires me,
-        helps me learn diverse perspectives, and contributes significantly to my personal growth.
-        I believe every interaction teaches something valuable — in communication, leadership,
-        adaptability, and technical understanding.
+        I work with a wide range of development technologies that allow me to build frontend, backend, scalable systems, APIs, 
+        CI/CD workflows, and containerized environments. My skillset helps me develop efficient, structured, and industry-ready applications.
     </p>
+
+    <table>
+        <tr>
+            <th>Category</th>
+            <th>Technologies</th>
+        </tr>
+
+        <tr>
+            <td><b>Languages</b></td>
+            <td>C++, Python, JavaScript, Go</td>
+        </tr>
+
+        <tr>
+            <td><b>Frontend</b></td>
+            <td>React, Next.js, Angular, HTML, CSS, JavaScript</td>
+        </tr>
+
+        <tr>
+            <td><b>Databases</b></td>
+            <td>MySQL, PostgreSQL, Oracle, NoSQL (MongoDB)</td>
+        </tr>
+
+        <tr>
+            <td><b>Tools / Hosting</b></td>
+            <td>Git, GitHub</td>
+        </tr>
+
+        <tr>
+            <td><b>Package Manager</b></td>
+            <td>NPM</td>
+        </tr>
+
+        <tr>
+            <td><b>CSS Frameworks</b></td>
+            <td>Tailwind CSS</td>
+        </tr>
+
+        <tr>
+            <td><b>Formatting / Linting</b></td>
+            <td>Prettier, ESLint</td>
+        </tr>
+
+        <tr>
+            <td><b>Testing</b></td>
+            <td>Cypress, Vitest</td>
+        </tr>
+
+        <tr>
+            <td><b>Deployment</b></td>
+            <td>Netlify</td>
+        </tr>
+
+        <tr>
+            <td><b>Type Checking</b></td>
+            <td>TypeScript</td>
+        </tr>
+
+        <tr>
+            <td><b>API Technologies</b></td>
+            <td>REST API, JSON, OAuth</td>
+        </tr>
+
+        <tr>
+            <td><b>Server-side Tools</b></td>
+            <td>Redis</td>
+        </tr>
+
+        <tr>
+            <td><b>Containerization</b></td>
+            <td>Docker</td>
+        </tr>
+
+        <tr>
+            <td><b>Orchestration</b></td>
+            <td>Kubernetes</td>
+        </tr>
+
+        <tr>
+            <td><b>Message Broker</b></td>
+            <td>Kafka</td>
+        </tr>
+
+        <tr>
+            <td><b>CI/CD</b></td>
+            <td>Continuous Integration & Deployment Practices</td>
+        </tr>
+    </table>
+
+
+
+    <!-- CP SECTION -->
+    <h2>Competitive Programming</h2>
 
     <p>
-        I am also curious about the future of technology, especially advancements in 
-        <b>Artificial Intelligence</b>, and I aim to integrate AI-driven approaches into my projects as I learn.
+        I regularly practice coding challenges to strengthen my DSA skills, improve logic building, and enhance my analytical thinking.
+        These platforms help me prepare for real-world technical interviews.
     </p>
 
-    <h3><b>How I Want to Contribute to the Industry</b></h3>
-
-    <p>
-        I aspire to contribute to the tech industry by building efficient, user-centric applications,
-        writing clean and maintainable code, and collaborating with teams to deliver impactful digital solutions.
-        I aim to bring creativity, problem-solving, and continuous improvement into every project.
-    </p>
-
-    <p>
-        I am committed to lifelong learning and excited to grow in the world of technology. 
-        My goal is to explore opportunities where I can apply my skills, learn new ones, and
-        contribute to real-world innovations with sincerity and passion.
-    </p>
-
-    <hr>
+    <a href="https://leetcode.com/u/NBkumar_01/">LeetCode Profile</a><br>
+    <a href="https://www.naukri.com/code360/profile/NehalBalakumar">Coding Ninjas Profile</a><br>
+    <a href="https://www.geeksforgeeks.org/user/nehalb2015/">GFG Profile</a>
 
 
-    <!-- Education Section -->
-    <h2><u><b>Education</b></u></h2>
 
-    <h3><b>School</b></h3>
-    <p>
-        <b>Atomic Energy Central School - Kaiga, Karnataka</b>
-    </p>
+    <!-- CONTACT -->
+    <h2>Contact</h2>
 
-    <p>
-        <b>Class 10<sup>th</sup>:</b><br>
-        CBSE<br>
-        <strong>Percentage: 76%</strong>
-    </p>
-
-    <p>
-        <b>Class 12<sup>th</sup>:</b><br>
-        CBSE<br>
-        <strong>Percentage: 77.4%</strong>
-    </p>
-
-    <h3><b>College</b></h3>
-    <p>
-        <b>SRM Institute of Science and Technology</b><br>
-        B.Tech – Electronics and Communication Engineering<br>
-        <strong>CGPA: 6.2</strong>
-    </p>
-
-    <hr>
-
-
-    <!-- Competitive Programming -->
-    <h2><u><b>Competitive Programming</b></u></h2>
-
-    <p>
-        I actively practice <b>Competitive Programming</b>, focusing on strengthening my problem-solving
-        and algorithmic thinking. I regularly solve challenges on platforms like <b>LeetCode</b>,
-        applying DSA concepts to improve speed, logic, and analytical skills.
-    </p>
-
-    <p>
-        This continuous practice helps me write efficient code and think critically under time constraints.
-    </p>
-
-    <p>
-        <a href="https://leetcode.com/u/NBkumar_01/" target="_blank"><b>LeetCode Profile</b></a><br>
-        <a href="https://www.naukri.com/code360/profile/NehalBalakumar" target="_blank"><b>Coding Ninjas Profile</b></a><br>
-        <a href="https://www.geeksforgeeks.org/user/nehalb2015/" target="_blank"><b>GFG Profile</b></a>
-    </p>
-
-    <hr>
-
-
-    <!-- Contact Section -->
-    <h2><u><b>Contact</b></u></h2>
-
-    <p>
-        <b>Email:</b>
-        <a href="mailto:nehalbalakumar7@gmail.com">nehalbalakumar7@gmail.com</a>
-    </p>
-
-    <p>
-        <b>Phone:</b>
-        <a href="tel:+919712345612">+91 9712345612</a>
-    </p>
-
-    <p>
-        <b>GitHub:</b>
-        <a href="https://github.com/NehalBalakumar" target="_blank">GitHub Profile</a>
-    </p>
-
-    <hr>
+    <p>📧 <a href="mailto:nehalbalakumar7@gmail.com">nehalbalakumar7@gmail.com</a></p>
+    <p>📞 <a href="tel:+919764534258">+91 97645 34258</a></p>
+    <p>💼 <a href="https://www.linkedin.com/in/nehalbalakumar" target="_blank">LinkedIn Profile</a></p>
+    <p>🐙 <a href="https://github.com/NehalBalakumar" target="_blank">GitHub Profile</a></p>
+    <p>📸 <a href="https://www.instagram.com/_neeehhaaal_/" target="_blank">Instagram Profile</a></p>
 
 </body>
 </html>
